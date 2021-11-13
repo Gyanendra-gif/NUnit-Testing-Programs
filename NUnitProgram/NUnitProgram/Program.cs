@@ -25,12 +25,16 @@ namespace NUnitProgram
                         TempratureConversion tc = new TempratureConversion();
                         tc.Calculate(temp);
                         break;
-                     case 3:
-                        DayOfWeek day = new DayOfWeek();
-                        day.Day();
+                    case 3:
+                        DayOfWeek dw = new DayOfWeek();
+                        dw.Day();
                         break;
                     case 4:
-                        flag = false;
+                        MonthlyPayment mp = new MonthlyPayment();
+                        mp.Payment();
+                        break;
+                    case 5:
+                       flag = false;
                         break;
                 }
             }
