@@ -26,10 +26,14 @@ namespace NUnitProgram
                         tc.Calculate(temp);
                         break;
                     case 3:
-                        DayOfWeek day = new DayOfWeek();
-                        day.Day();
+                        DayOfWeek dw = new DayOfWeek();
+                        dw.Day();
                         break;
                     case 4:
+                        MonthlyPayment mp = new MonthlyPayment();
+                        mp.Payment();
+                        break;
+                    case 5:
                         flag = false;
                         break;
                 }
