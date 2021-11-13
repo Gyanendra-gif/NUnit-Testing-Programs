@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,9 +6,15 @@ namespace NUnitProgram
 {
     class DayOfWeek
     {
-        public void Day(int day, int month, int year)
+        public void Day()
         {
-            
+            Console.WriteLine("Enter the Day: ");
+            int day = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the Month: ");
+            int month = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the Year: ");
+            int year = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine("Day is " + dayOfWeek(day, month, year));
         }
         public static int dayOfWeek(int d, int m, int y)
