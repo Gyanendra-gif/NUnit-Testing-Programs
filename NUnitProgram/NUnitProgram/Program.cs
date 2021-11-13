@@ -25,13 +25,9 @@ namespace NUnitProgram
                         TempratureConversion tc = new TempratureConversion();
                         tc.Calculate(temp);
                         break;
-                    case 3:
-                        Console.WriteLine("Enter the Day: ");
-                        int day = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Enter the Month: ");
-                        int month = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Enter the Year: ");
-                        int year = Convert.ToInt32(Console.ReadLine());
+                     case 3:
+                        DayOfWeek day = new DayOfWeek();
+                        day.Day();
                         break;
                     case 4:
                         flag = false;
