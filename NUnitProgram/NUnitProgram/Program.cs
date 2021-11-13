@@ -26,6 +26,10 @@ namespace NUnitProgram
                         tc.Calculate(temp);
                         break;
                     case 3:
+                        DayOfWeek day = new DayOfWeek();
+                        day.Day();
+                        break;
+                    case 4:
                         flag = false;
                         break;
                 }
