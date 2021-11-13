@@ -34,7 +34,7 @@ namespace NUnitProgram
                         mp.Payment();
                         break;
                     case 5:
-                        flag = false;
+                       flag = false;
                         break;
                 }
             }
